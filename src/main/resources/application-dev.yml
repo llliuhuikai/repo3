@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/yurayura_new?serverTimezone=GMT%2B8&useSSL=false&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: 123456
+    password: 888888
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       auto-commit: true
@@ -17,7 +17,7 @@ spring:
       pool-name: ELiaNaCcHikariCP
   # 发送邮箱配置
   mail:
-    host: smtp.126.com
+    host: 510328841@qq.com
     username: elianacc@126.com
     password: cny123456
     default-encoding: UTF-8
@@ -34,7 +34,7 @@ spring:
   redis:
     host: 127.0.0.1
     port: 6379
-    password: 123456
+    password: 888888
     database: 1
     jedis:
       pool:
